@@ -1,0 +1,102 @@
+/*global styles */
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    margin:auto;
+    padding:0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+
+ /*styles for channel area*/
+ h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+#current-channel{
+    color: blue;
+    border-left:rgb(0,0,255);
+}
+/*styles for chat area*/
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding:16px;
+}
+
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+li{
+    /* remove bullets */
+    list-style-type:none;
+    padding: 16px;
+    font-size: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+a{
+    /*change preset link color to primary text color*/
+    color: black;
+}
+
+
+
+/*App bar*/
+
+/*Channels list*/
+
+/*Tab bar*/
+.tab-bar{
+    background-color: white;
+    border:none;
+    font-size: 13px;
+    width: 72px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+/*Messages*/
+.chat-message{
+    margin-bottom: 8px;
+    width: 80%;
+
+}
+.metadata{
+    margin-left: 2.5%;
+}
+
+#firstmessage{
+    margin-left: 17.5%;
+}
