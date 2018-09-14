@@ -33,7 +33,7 @@ button {
 
 #current-channel{
     color: blue;
-    border-left:rgb(0,0,255);
+    border-left:2px solid blue;
 }
 /*styles for chat area*/
 p {
@@ -70,13 +70,8 @@ a{
     color: black;
 }
 
+/*tab bar*/
 
-
-/*App bar*/
-
-/*Channels list*/
-
-/*Tab bar*/
 .tab-bar{
     background-color: white;
     border:none;
@@ -85,7 +80,9 @@ a{
     margin: auto;
     justify-content: center;
 }
-
+#new-button{
+    color:blue;
+}
 
 /*Messages*/
 .chat-message{
@@ -97,6 +94,6 @@ a{
     margin-left: 2.5%;
 }
 
-#firstmessage{
+.own{
     margin-left: 17.5%;
 }
